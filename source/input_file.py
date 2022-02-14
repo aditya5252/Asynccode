@@ -6,20 +6,22 @@ Nx=256
 cfl=0.08
 # simulation end time
 tend=0.5
+# simulation time-steps
+N_t_=500
 # convective velocit(ies)
 c=1.0
 # diffusivity constant
 eta=0.1
 # number of wavenumbers
-numk=3
+numk=1
 # wavenumbers
-k_ls=np.array([2,1,2])
+k_ls=np.array([2.])
 # amplitudes
-amp_ls=np.array([4,2,2])
+amp_ls=np.array([1.])
 # number of phase angles
 numphi=1
 # phase angles
-phi_ls=np.array([0])
+phi_ls=np.array([0.])
 # number of PEs
 numPE=4
 # nlevels
