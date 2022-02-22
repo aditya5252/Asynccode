@@ -7,7 +7,7 @@ cfl=0.08
 # simulation end time
 tend=0.5
 # simulation time-steps
-N_t_=500
+N_t_=15
 # convective velocit(ies)
 c=1.0
 # diffusivity constant
@@ -15,7 +15,7 @@ eta=0.1
 # number of wavenumbers
 numk=1
 # wavenumbers
-k_ls=np.array([2.])
+k_ls=np.array([1.])
 # amplitudes
 amp_ls=np.array([1.])
 # number of phase angles
@@ -25,9 +25,9 @@ phi_ls=np.array([0.])
 # number of PEs
 numPE=4
 # nlevels
-nlevels=4
+nlevels=3
 # number of sets
 nsets=1
 # probability for each set
-prob_set=[0.3,0.5,0.2,0.0]
+prob_set=[0.3,0.5,0.2]
 
