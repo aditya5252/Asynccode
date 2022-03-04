@@ -1,7 +1,7 @@
 
 ######### Sync FLAGS used #########
-# SyncFLAG = 'DSync'
-SyncFLAG ='DAsync'
+SyncFLAG = 'DSync'
+# SyncFLAG ='DAsync'
 
 ####### equation type #############
 EqnFLAG ='DAdvection'
