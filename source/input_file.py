@@ -7,7 +7,7 @@ cfl=0.08
 # simulation end time
 tend=0.5
 # simulation time-steps
-N_t_=15
+N_t_=50
 # convective velocit(ies)
 c=1.0
 # diffusivity constant
@@ -25,9 +25,10 @@ phi_ls=np.array([0.])
 # number of PEs
 numPE=4
 # nlevels
-nlevels=3
+nlevels=4
 # number of sets
 nsets=1
 # probability for each set
-prob_set=[0.3,0.5,0.2]
+prob_set=[0.3, 0.5, 0.2, 0.0]
+# prob_set=[0.2,0.5,0.2,0.1]
 
